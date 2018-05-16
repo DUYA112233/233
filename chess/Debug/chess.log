@@ -1,0 +1,35 @@
+﻿computermaster.obj : error LNK2001: 无法解析的外部符号 _qp
+五子棋.obj : error LNK2001: 无法解析的外部符号 _qp
+computermaster.obj : error LNK2001: 无法解析的外部符号 _TheFirstStep
+五子棋.obj : error LNK2001: 无法解析的外部符号 _TheFirstStep
+computermaster.obj : error LNK2001: 无法解析的外部符号 _n
+五子棋.obj : error LNK2001: 无法解析的外部符号 _n
+computermaster.obj : error LNK2001: 无法解析的外部符号 _p
+五子棋.obj : error LNK2001: 无法解析的外部符号 _p
+computermaster.obj : error LNK2001: 无法解析的外部符号 _q
+五子棋.obj : error LNK2001: 无法解析的外部符号 _q
+computermaster.obj : error LNK2001: 无法解析的外部符号 _laststepp
+五子棋.obj : error LNK2001: 无法解析的外部符号 _laststepp
+computermaster.obj : error LNK2001: 无法解析的外部符号 _laststepq
+五子棋.obj : error LNK2001: 无法解析的外部符号 _laststepq
+computermaster.obj : error LNK2001: 无法解析的外部符号 _LastManStepp
+五子棋.obj : error LNK2001: 无法解析的外部符号 _LastManStepp
+computermaster.obj : error LNK2001: 无法解析的外部符号 _LastManStepq
+五子棋.obj : error LNK2001: 无法解析的外部符号 _LastManStepq
+computermaster.obj : error LNK2001: 无法解析的外部符号 _lastattackp
+五子棋.obj : error LNK2001: 无法解析的外部符号 _lastattackp
+computermaster.obj : error LNK2001: 无法解析的外部符号 _lastattackq
+五子棋.obj : error LNK2001: 无法解析的外部符号 _lastattackq
+computermaster.obj : error LNK2001: 无法解析的外部符号 _ifentercm6
+五子棋.obj : error LNK2001: 无法解析的外部符号 _ifentercm6
+computermaster.obj : error LNK2001: 无法解析的外部符号 _k
+五子棋.obj : error LNK2001: 无法解析的外部符号 _k
+computermaster.obj : error LNK2001: 无法解析的外部符号 _d
+五子棋.obj : error LNK2001: 无法解析的外部符号 _d
+五子棋.obj : error LNK2001: 无法解析的外部符号 _flag
+五子棋.obj : error LNK2001: 无法解析的外部符号 _choice
+五子棋.obj : error LNK2001: 无法解析的外部符号 _winer1
+五子棋.obj : error LNK2001: 无法解析的外部符号 _winer2
+五子棋.obj : error LNK2001: 无法解析的外部符号 _exit233
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\c\chess\Debug\chess.exe : fatal error LNK1120: 20 个无法解析的外部命令

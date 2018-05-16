@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gobang">
+      <UniqueIdentifier>{9e7f4de1-2032-4de7-b20b-2219fddde9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gobang\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Gobang\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Chinese chess">
+      <UniqueIdentifier>{4392ab5e-1a7d-4425-b6ed-69d4a39beb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chinese chess\Header Files">
+      <UniqueIdentifier>{c1140fb1-aa7e-4ddc-8584-1b71c7414022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chinese chess\Source Files">
+      <UniqueIdentifier>{3b589e29-49b2-4995-bdee-6ef08b1a690a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="init.h" />
+    <ClInclude Include="Gobang\Gobang_init.h">
+      <Filter>Gobang\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gobang\Gobang_computermaster.h">
+      <Filter>Gobang\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chinese chess\Chinese_chess_init.h">
+      <Filter>Chinese chess\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gobang\Gobang_main.c">
+      <Filter>Gobang\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Gobang\Gobang_computermaster.c">
+      <Filter>Gobang\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chinese chess\Chinese_chess_main.c">
+      <Filter>Chinese chess\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
